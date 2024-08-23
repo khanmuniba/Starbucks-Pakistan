@@ -457,3 +457,100 @@ body {
 .rights-reserved a {
     text-decoration: none;
 }
+
+/* General Styles for Small Screens */
+@media (max-width: 768px) {
+    .navbar {
+        height: 70px;
+        padding: 0 10px;
+    }
+
+    .options a {
+        font-size: 14px;
+    }
+
+    .text {
+        font-size: 60px;
+        top: 200px;
+    }
+
+    .text2 {
+        font-size: 16px;
+        bottom: 220px;
+    }
+
+    .container {
+        padding-bottom: 20px;
+    }
+
+    .block1 {
+        width: 90%;
+        padding: 20px 0;
+    }
+
+    .photo img {
+        width: 100%;
+        height: auto;
+    }
+
+    .name h2 {
+        font-size: 30px;
+    }
+
+    .content h2 {
+        font-size: 30px;
+    }
+
+    .footer, .part2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .about, .footer .links, .footer .address {
+        width: 100%;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+}
+
+/* For Mobile Devices (max-width: 480px) */
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .navbar {
+        height: 60px;
+    }
+
+    .options a {
+        font-size: 12px;
+    }
+
+    .text {
+        font-size: 50px;
+        top: 150px;
+    }
+
+    .text2 {
+        font-size: 14px;
+        bottom: 180px;
+    }
+
+    .block1 {
+        padding: 5px 0;
+    }
+
+    .photo img {
+        width: 100%;
+    }
+
+    .name h2 {
+        font-size: 25px;
+    }
+
+    .content h2 {
+        font-size: 25px;
+    }
+}
+
